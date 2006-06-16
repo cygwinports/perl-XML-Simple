@@ -1,0 +1,58 @@
+perl-XML-Simple
+-------------------------------------------
+A simple API for writing XML files in Perl.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  perl-5.8.7-5
+
+Canonical homepage:
+  http://search.cpan.org/~grantm/XML-Simple/
+
+Canonical download:
+  http://www.cpan.org/authors/id/G/GR/GRANTM/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-XML-Simple-2.14-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-XML-Simple-2.14-X.cygport all
+
+This will create:
+  /usr/src/perl-XML-Simple-2.14-X-src.tar.bz2
+  /usr/src/perl-XML-Simple-2.14-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-XML-Simple.sh
+  /usr/lib/perl5/vendor_perl/5.8/XML/Simple.pm
+  /usr/lib/perl5/vendor_perl/5.8/XML/Simple/FAQ.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/Simple/.packlist
+  /usr/share/doc/Cygwin/perl-XML-Simple-2.14.README
+  /usr/share/doc/perl-XML-Simple-2.14/Changes
+  /usr/share/doc/perl-XML-Simple-2.14/README
+  /usr/share/man/man3/XML.Simple.3pm.gz
+  /usr/share/man/man3/XML.Simple.FAQ.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/XML-Simple.pod
+
+------------------
+
+Port Notes:
+
+----- version 2.14-1 -----
+Version bump.
+
+----- version 2.12-2 -----
+Rebuilt for perl-5.8.6.
+
+----- version 2.12-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
