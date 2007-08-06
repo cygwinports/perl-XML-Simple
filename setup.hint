@@ -1,4 +1,4 @@
 category: Perl
-requires: cygwin perl
+requires: perl perl-XML-SAX
 sdesc: "Perl module for simple XML access"
 ldesc: "A simple API for accessing XML files in Perl."
