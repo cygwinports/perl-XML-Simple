@@ -3,8 +3,7 @@ perl-XML-Simple
 A simple API for writing XML files in Perl.
 
 Runtime requirements:
-  perl-5.8.7-5
-  perl-XML-SAX-0.16-1
+  perl-5.10.0-3
 
 Canonical homepage:
   http://search.cpan.org/~grantm/XML-Simple/
@@ -29,20 +28,20 @@ This will create:
 
 Files included in the binary package:
 
-  /etc/postinstall/perl-XML-Simple.sh
   /usr/lib/perl5/vendor_perl/5.8/XML/Simple.pm
   /usr/lib/perl5/vendor_perl/5.8/XML/Simple/FAQ.pod
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/Simple/.packlist
-  /usr/share/doc/Cygwin/perl-XML-Simple-2.18.README
   /usr/share/doc/perl-XML-Simple-2.18/Changes
   /usr/share/doc/perl-XML-Simple-2.18/README
   /usr/share/man/man3/XML.Simple.3pm.gz
   /usr/share/man/man3/XML.Simple.FAQ.3pm.gz
-  /usr/share/perl/cygwin-pods/5.8/XML-Simple.pod
 
 ------------------
 
 Port Notes:
+
+----- version 2.18-2 -----
+Rebuilt for perl-5.10.
 
 ----- version 2.18-1 -----
 Version bump.
