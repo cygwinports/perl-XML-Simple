@@ -1,4 +1,0 @@
-category: Perl
-requires: perl
-sdesc: "Perl module for simple XML access"
-ldesc: "A simple API for accessing XML files in Perl."

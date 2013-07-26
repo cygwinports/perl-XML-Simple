@@ -1,0 +1,9 @@
+CPAN_AUTHOR=grantm
+inherit perl
+
+NAME="perl-XML-Simple"
+VERSION=2.20
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Simple XML API for Perl"
+DESCRIPTION="A simple API for accessing XML files in Perl."
